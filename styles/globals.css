@@ -33,7 +33,27 @@
   .markdown code {
     @apply dark:text-slate-300 font-mono text-base bg-slate-300 dark:bg-gray-900 p-2 my-4 mt-10 rounded-md transition-colors;
   }
-
+  .markdown a {
+    @apply dark:text-blue-400 text-blue-600 font-bold transition-colors;
+  }
+  .markdown a:hover {
+    @apply dark:text-blue-500 text-blue-700 transition-colors;
+  }
+  .markdown ul {
+    @apply dark:text-slate-300 font-grotesk text-base my-2 transition-colors;
+  }
+  .markdown ol {
+    @apply dark:text-slate-300 font-grotesk text-base my-2 transition-colors;
+  }
+  .markdown li {
+    @apply dark:text-slate-300 font-grotesk text-base my-2 transition-colors;
+  }
+  .markdown blockquote {
+    @apply dark:text-slate-300 font-grotesk text-base my-2 transition-colors;
+  }
+  .markdown hr {
+    @apply dark:text-slate-300 font-grotesk text-base my-2 transition-colors;
+  }
 }
 
 html,
